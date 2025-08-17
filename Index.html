@@ -1,10 +1,58 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .profile-container {
+      max-width: 600px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 10px 0;
+      font-size: 28px;
+    }
+    p {
+      color: #666;
+      font-size: 16px;
+    }
+    .social-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #0077cc;
+    }
+  </style>
 </head>
 <body>
-    
+  <div class="profile-container">
+    <img src="your-photo.jpg" alt="Profile Photo" class="profile-img" />
+    <h1>Your Name</h1>
+    <p>Web Developer | Designer | Tech Enthusiast</p>
+    <p>Hello! I'm passionate about creating beautiful and functional web experiences. Let's connect!</p>
+    <div class="social-links">
+      <a href="https://twitter.com/yourhandle">Twitter</a>
+      <a href="https://github.com/yourhandle">GitHub</a>
+      <a href="mailto:you@example.com">Email</a>
+    </div>
+  </div>
 </body>
 </html>
